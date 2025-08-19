@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile-page</title>
+    <link rel="icon" type="image/png" href="./assets/images/profile_img_test.jpg" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <main class="main-container profile-page">
+      <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar"></div>
+
+        <!-- Profile container -->
+        <div class="profile-container">
+          <!-- Profile header -->
+          <div class="profile-header">
+            <!-- Profile image -->
+            <div class="profile-image">
+              <img
+                class="img"
+                src="./assets/images/profile_img_test.jpg"
+                alt="profile_image"
+              />
+            </div>
+            <div  class="edit-icon">
+               <i class="fas fa-pen-square"> </i> 
+            </div>
+
+          </div>
+
+          <!-- Profile body -->
+          <div class="profile-body">
+            <div class="profile-info">
+              <!-- Infos personnelles -->
+              <div class="personal-info">
+                <div class="basic-info">
+                  <h2 class="name">Emma Smith</h2>
+                  <p>Software Engineer</p>
+                  <p>Los Angeles, California</p>
+                </div>
+                <div class="actions">
+                  <button class="edit-btn">Edit Profile</button>
+                  <button class="setting-btn">Settings</button>
+                </div>
+              </div>
+
+              <!-- Stats -->
+              <div class="profile-stats">
+                <!-- Rôle actuel -->
+                <div class="role-section">
+                  <div class="role-title">
+                    Current role <i class="fas fa-briefcase"></i>
+                  </div>
+                  <div class="role-container">
+                    <div class="role">Software Engineer</div>
+                  </div>
+                </div>
+
+                <!-- Compétences -->
+                <div class="skills">
+                  <div class="skill-title">
+                    Skills <i class="fas fa-star"></i>
+                  </div>
+                  <div class="skill-container">
+                    <div class="skill">HTML</div>
+                    <div class="skill">CSS</div>
+                    <div class="skill">Dart</div>
+                    <div class="skill">Java</div>
+                    <div class="skill">UI Design</div>
+                    <div class="skill">JavaScript</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Profile details -->
+            <div class="profile-details grid-3">
+              <div class="card">
+                <div class="card-content"">
+                  <p class="title">Ready for work</p>
+                  <span class="line"
+                    >Show recruiters that you're ready for work</span
+                  >
+                </div>
+                <div class="card-icon">
+                  <i class="fas fa-arrow-right"></i>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-content">
+                  <p class="title">Share post</p>
+                  <span class="line"
+                    >Share latest news to get connected with others.</span
+                  >
+                </div>
+                <div class="card-icon">
+                  <i class="fas fa-arrow-right"></i>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-content"">
+                  <p class="title">Update</p>
+                  <span class="line"
+                    >Keep your profile updated so that recruiters know you
+                    better.</span
+                  >
+                </div>
+                <div class="card-icon">
+                  <i class="fas fa-arrow-right"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
